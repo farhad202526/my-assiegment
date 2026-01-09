@@ -4,10 +4,11 @@
   font-optical-sizing: auto;
   
 }
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+    max-width: 1600px;
+}
 nav{
     display: flex;
     margin: 0 120px;
@@ -33,11 +34,95 @@ nav .btn{
 }
 #banner{
     background-image: url(assets/hero-bg.png) ;
+    background-repeat: no-repeat;
     width: 1600px;
     height: 674px;
     color: #FFFFFF;
     padding: 115px 120px 179px;
     justify-items: center;
     text-align: center;
+    align-items: center;
     
 }
+.bannr-contrianer{
+    width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.access{
+    width: 229px;
+    height: 35px;
+    color: #469165;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px 12px;
+    gap: 6px;
+font-size: 16px;
+font-weight: 500;
+margin: 0 auto;
+
+}
+.baaner-title{
+    font-size: 75px;
+    font-weight: 700;
+    width: 770px;
+    height: 164px;
+    margin:16px auto;
+}
+.not-font{
+    color: #30B868;
+}
+.title-p{
+    width: 1360px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 16px auto;
+    text-align: center;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    
+
+  
+    gap:16px;
+}
+.strat-builndig{
+    display: flex;
+    width: 251px;
+    height: 52px;
+    background-color: #30B868;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    
+}
+.how-works{
+     display: flex;
+    width: 251px;
+    height: 52px;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+}
+
+    
