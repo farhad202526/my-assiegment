@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     max-width: 1600px;
+    
 }
 nav{
     display: flex;
@@ -51,8 +52,10 @@ nav .btn{
     text-align: center;
     justify-content: center;
     
+    
 }
 .access{
+    display: flex;
     width: 229px;
     height: 35px;
     color: #469165;
@@ -61,7 +64,7 @@ nav .btn{
     text-align: center;
     align-items: center;
     justify-content: center;
-    display: flex;
+    
     padding: 8px 12px;
     gap: 6px;
 font-size: 16px;
@@ -123,6 +126,64 @@ margin: 0 auto;
     padding: 16px;
     border-radius: 4px;
     border-color: #FFFFFF;
+    gap: 12px;
 }
+#notes{
+    width: 1360px;
+    height: 496px;
+    color: #30B868;
+    margin: 0 auto;
+    grid-gap: 44px;
 
+}
+.notes-contriner{
+    width: 1360px;
+    height: 152px;
+    text-align: center;
+}
+.notes-tex{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+}   
+.notes-p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+#crad-contriner{
+    display: flex;
+    width: 1360px;
+    height: 300px;
+    margin: 44px auto;
+    gap: 24px; align-items: center;
+    text-align: center;
+}
+#crad-contriner.crad{
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    gap: 16px;
     
+
+}
+.crad h4{
+    font-size: 24px;
+    font-weight: 600;
+color: #001931;
+}
+.crad p{
+        font-size: 16px;
+    font-weight: 400;
+color: #627382;
+line-height: 24px;
+}
+    
+.button-img{
+    background-color: #F95555;
+    width: 60px;
+    height: 60;
+    border-radius: 50%;
+
+}
