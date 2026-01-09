@@ -38,16 +38,6 @@ nav .btn{
     color: #FFFFFF;
     padding: 115px 120px 179px;
     justify-items: center;
+    text-align: center;
     
-}
-.access{ width: 229px;
-    padding: 8px 12px;
-    background-color: white;
-    color: #469165;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    border-radius: 1000px;
-    align-items: center;
-
 }
